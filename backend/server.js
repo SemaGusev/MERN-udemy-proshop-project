@@ -4,7 +4,7 @@ import colors from 'colors'
 import { notFound, errorHandler } from './middlewate/errorMiddleware.js'
 import connectDB from './config/db.js'
 
-import productRoutes from './routes/productRoues.js'
+import productRoutes from './routes/productRoutes.js'
 
 dotenv.config()
 
